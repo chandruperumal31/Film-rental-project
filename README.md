@@ -1,28 +1,28 @@
-Film - Rental
 
-There is a film rental store that provides DVDs on a rental basis. The owner of this store is your friend and he is not at all computer savvy. To manage his business he has software that helps him to manage the business. 
-He also has one helper who understands computers well and as a part-time job, he manages the software and helps the owner by providing different types of reports using SQL queries. 
-Today, unfortunately, this helper is not available. So your friend has called you to help him with some of the reports that he needs to make important business decisions. 
+Objective:
 
-Schema Information
-Before you can help your friend it is very important for you to understand the schema. This schema contains a number of tables that relate to the various aspects of this store, such as the films available for rent, the customers who rent them, and the staff who manage the store and the rental process.
-The tables in the database are interrelated, which allows them to run complex queries for data analysis.
+The objective of this project is to analyze a rental database using SQL queries to extract valuable insights and answer specific questions related to revenue generation, rental trends, film properties, customer behavior, and database constraints. By addressing each question comprehensively, this project aims to provide actionable information to stakeholders for decision-making and optimization of rental operations.
 
-Following is a brief description of a few of the tables 
-Actor table contains information about the actors who have appeared in films, as well as information about the specific films in which they have appeared. 
+Approach:
 
-The film table provides information about the films themselves, including their category, language, and other details. 
-The customer Info table contains information about the customers who rent DVDs from the store, including their addresses and other personal information. 
+Understanding Data Schema: Begin by comprehensively understanding the structure of the rental database, including tables, relationships, and attributes.
 
-Finally, the Store table contains information about the store itself, including details about the staff who work there, the rentals that are available
+Query Formulation: Develop SQL queries tailored to address each question effectively, ensuring accuracy and efficiency in data retrieval.
 
+Data Analysis: Execute queries to extract relevant data and perform necessary calculations to derive insights related to revenue generation, rental patterns, film characteristics, customer behavior, and database constraints.
 
-Questions
+Result Interpretation: Analyze query results to derive meaningful conclusions and insights that address the objectives of each question.
+
+Documentation: Document the SQL queries, analysis process, and key findings in a clear and concise manner to facilitate understanding and interpretation by stakeholders.
+
+Optimization Suggestions: Provide recommendations for optimizing rental operations and improving decision-making based on the insights obtained from the data analysis.
+
 
 1.	What is the total revenue generated from all rentals in the database? 
 2.	How many rentals were made in each month_name? 
 3.	What is the rental rate of the film with the longest title in the database? 
-4.	What is the average rental rate for films that were taken from the last 30 days from the date("2005-05-05 22:04:30")? 
+4.	What is the average rental rate for films that were taken from the last 30 days from the date("2005-05-05 
+    22:04:30")? 
 5.	What is the most popular category of films in terms of the number of rentals? 
 6.	Find the longest movie duration from the list of films that have not been rented by any customer.
 7.	What is the average rental rate for films, broken down by category? 
